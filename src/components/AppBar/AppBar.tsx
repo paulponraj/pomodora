@@ -1,3 +1,27 @@
+<header>
+    <!--Nav-->
+    <nav aria-label="menu nav" class="bg-gray-800 pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto fixed w-full z-20 top-0">
+
+        <div class="flex flex-wrap items-center">
+            <div class="flex flex-shrink md:w-1/3 justify-center md:justify-start text-white">
+                <a href="#" aria-label="Home">
+                    <span class="text-xl pl-2"><i class="em em-grinning"></i></span>
+                </a>
+            </div>
+
+<div class="flex flex-1 md:w-1/3 justify-center md:justify-start text-black px-2">
+                <span class="relative w-full">
+                <script async src="https://cse.google.com/cse.js?cx=1236b84bea0d14837">
+                         </script>
+                    <div class="gcse-search"></div>
+                        </svg>
+                    </div>
+                </span>
+            </div>
+            
+        </div>
+    </nav>
+</header>
 import { FunctionComponent, useState } from 'react'
 import { FaRegMoon } from 'react-icons/fa'
 import { BiSun } from 'react-icons/bi'
