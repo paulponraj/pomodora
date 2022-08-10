@@ -17,8 +17,8 @@ const AppBar: FunctionComponent<Props> = (props: Props) => {
   return (
     <div>
       <div className="flex flex-row flex-wrap justify-between p-6 gap-10">
-        <div className="text-4xl tracking-widest font-extrabold font-mono text-slate-600 dark:text-slate-100">
-          Pomodora
+        <div className="text-4xl tracking-widest font-extrabold font-mono text-slate-300 dark:text-slate-100">
+          MyDash.fun
         </div>
         <div className="flex gap-8">
           <div
