@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import AppBar from './components/AppBar'
 import BreakComponent from './components/BreakComponent/BreakComponent'
+import Footer from './components/Footer'
 
 function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light')
@@ -17,7 +18,8 @@ function App() {
     <div className="md:px-14 lg:px-36 xl:px-80 h-screen bg-slate-50 dark:bg-slate-900">
       <AppBar theme={theme} setTheme={setTheme} />
       <BreakComponent />
- </div>
+      <Footer />
+    </div>
   )
 }
 
