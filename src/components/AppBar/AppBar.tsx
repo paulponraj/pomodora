@@ -1,6 +1,5 @@
 <script async src="https://cse.google.com/cse.js?cx=1236b84bea0d14837">
-                         </script>
-                    <div class="gcse-search"></div>
+</script>
 import { FunctionComponent, useState } from 'react'
 import { FaRegMoon } from 'react-icons/fa'
 import { BiSun } from 'react-icons/bi'
