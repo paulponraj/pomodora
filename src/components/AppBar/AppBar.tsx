@@ -20,9 +20,6 @@ const AppBar: FunctionComponent<Props> = (props: Props) => {
         <div className="text-4xl tracking-widest font-extrabold font-mono text-slate-600 dark:text-slate-100">
           Pomodora
         </div>
-        <script async src="https://cse.google.com/cse.js?cx=1236b84bea0d14837">
-                         </script>
-                    <div class="gcse-search"></div>
         <div className="flex gap-8">
           <div
             className="m-auto hover:cursor-pointer dark:text-slate-50"
