@@ -4,7 +4,7 @@ import BreakComponent from './components/BreakComponent/BreakComponent'
 import Footer from './components/Footer'
 
 function App() {
-  const [theme, setTheme] = useState<'dark' | 'dark'>('light')
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark')
 
   useEffect(() => {
     if (theme === 'dark') {
