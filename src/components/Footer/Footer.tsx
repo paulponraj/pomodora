@@ -6,7 +6,7 @@ const Footer: FunctionComponent = () => {
     <p className="-mt-8 text-center text-black-300">
           Click here to access{' '}
           <a
-            href="https://mydash.fun/"
+            href="https://mydash.fun/dashboard"
             className="underline"
           >
             Dashboard
